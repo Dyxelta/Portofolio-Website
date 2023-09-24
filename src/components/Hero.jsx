@@ -1,7 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from 'react-scroll'
-import ReactTyped from 'react-typed'
+import { Typewriter } from 'react-simple-typewriter'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
 
         {/* Container */}
         <div className='flex flex-col justify-center max-w-[1080px] h-full mx-auto px-8'>
-            <h3 className='text-2xl sm:text-5xl font-bold text-primary'><ReactTyped typeSpeed={90} backSpeed={30} showCursor={false} strings={['Hi, ','Halo, ','Привет, ', '你好, ', 'こんにちは, ', '안녕하세요, ','مرحبًا, ']} loop/></h3>
+            <h3 className='text-2xl sm:text-5xl font-bold text-primary'>// <Typewriter typeSpeed={100} backSpeed={30} cursor={false} words={['Hi ','Halo ','Привет ', '你好 ', 'こんにちは ', '안녕하세요 ','مرحبًا ']} loop/></h3>
             <h1 className='text-4xl sm:text-7xl font-bold text-offwhite'>I'm Dixon Willow</h1>
             <h2 className='text-3xl sm:text-6xl font-bold text-offwhite-dark'>a Computer Science Student</h2>
             <p className='max-w-[700px] py-4 text-offwhite-dark'>An undergraduate student majoring in Computer Science and currently partaking in Software Engineering streaming at BINUS University. A tech enthusiast with the determination to a continuous learning in this field to attain greater proficiency and competency in real-world problem solving.</p>

@@ -19,19 +19,19 @@ const Navbar = () => {
         
         {/* menu */}
         <ul className='hidden md:flex cursor-pointer'>
-            <li className='text-lg mx-4 pb-1 hover:border-b-2 hover:border-primary'>
+            <li className='text-lg mx-4 pb-1 hover:text-primary'>
                 <Link to='hero' smooth={true} duration={500}>Home</Link>
             </li>
-            <li className='text-lg mx-4 pb-1 hover:border-b-2 hover:border-primary'>
+            <li className='text-lg mx-4 pb-1 hover:text-primary'>
                 <Link to='about' smooth={true} duration={500}>About</Link>
             </li>
-            <li className='text-lg mx-4 pb-1 hover:border-b-2 hover:border-primary'>
+            <li className='text-lg mx-4 pb-1 hover:text-primary'>
                 <Link to='skills' smooth={true} duration={500}>Skill</Link>
             </li>
-            <li className='text-lg mx-4 pb-1 hover:border-b-2 hover:border-primary'>
+            <li className='text-lg mx-4 pb-1 hover:text-primary'>
                 <Link to='projects' smooth={true} duration={500}>Project</Link>
             </li>
-            <li className='text-lg mx-4 pb-1 hover:border-b-2 hover:border-primary'>
+            <li className='text-lg mx-4 pb-1 hover:text-primary'>
                 <Link to='contact' smooth={true} duration={500}>Contact</Link>
             </li>
         </ul>
@@ -43,19 +43,19 @@ const Navbar = () => {
 
         {/* mobile */}
         <ul className={!open ? 'hidden' : 'absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-bgblack cursor-pointer'}>
-            <li className='my-4 py-2 text-3xl hover:border-b-2 hover:border-primary'>
+            <li className='my-4 py-2 text-3xl hover:text-primary'>
                 <Link onClick={handler} to='hero' smooth={true} duration={500}>Home</Link>
             </li>
-            <li className='my-4 py-1 text-3xl hover:border-b-2 hover:border-primary'>
+            <li className='my-4 py-1 text-3xl hover:text-primary'>
                 <Link onClick={handler} to='about' smooth={true} duration={500}>About</Link>
             </li>
-            <li className='my-4 py-1 text-3xl hover:border-b-2 hover:border-primary'>
+            <li className='my-4 py-1 text-3xl hover:text-primary'>
                 <Link onClick={handler} to='skills' smooth={true} duration={500}>Skill</Link>
             </li>
-            <li className='my-4 py-1 text-3xl hover:border-b-2 hover:border-primary'>
+            <li className='my-4 py-1 text-3xl hover:text-primary'>
                 <Link onClick={handler} to='projects' smooth={true} duration={500}>Project</Link>
             </li>
-            <li className='my-4 py-1 text-3xl hover:border-b-2 hover:border-primary'>
+            <li className='my-4 py-1 text-3xl hover:text-primary'>
                 <Link onClick={handler} to='contact' smooth={true} duration={500}>Contact</Link>
             </li>
         </ul>

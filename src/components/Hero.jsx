@@ -1,0 +1,31 @@
+import React from 'react'
+import {HiArrowNarrowRight} from 'react-icons/hi'
+import { Link } from 'react-scroll'
+import ReactTyped from 'react-typed'
+
+const Hero = () => {
+  return (
+    <div name='hero' className='w-full h-screen bg-bgblack font-roboto'>
+
+        {/* Container */}
+        <div className='flex flex-col justify-center max-w-[1080px] h-full mx-auto px-8'>
+            <h3 className='text-2xl sm:text-5xl font-bold text-primary'><ReactTyped typeSpeed={90} backSpeed={30} strings={['Hi, ','Halo, ','Привет, ', '你好, ', 'こんにちは, ', '안녕하세요, ','مرحبًا, ']} loop/></h3>
+            <h1 className='text-4xl sm:text-7xl font-bold text-offwhite'>I'm Dixon Willow</h1>
+            <h2 className='text-3xl sm:text-6xl font-bold text-offwhite-dark'>a Compunter Science Student</h2>
+            <p className='max-w-[700px] py-4 text-offwhite-dark'>An undergraduate student majoring in Computer Science and currently partaking in Software Engineering streaming at BINUS University. A tech enthusiast with the determination to a continuous learning in this field to attain greater proficiency and competency in real-world problem solving.</p>
+            <div>
+                <Link to='projects' smooth={true} duration={500}>
+                    <button className='group flex items-center border-2 text-offwhite border-primary px-6 py-3 my-2 hover:bg-primary hover:scale-105 hover:text-bgblack duration-300'>
+                        View Projects
+                        <span className='group-hover:rotate-90 duration-300'>
+                            <HiArrowNarrowRight className='ml-3 hover:'/>
+                        </span>
+                    </button>
+                </Link>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Hero

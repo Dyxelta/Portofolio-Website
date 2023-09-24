@@ -37,26 +37,42 @@ const Navbar = () => {
         </ul>
 
         {/* hamburger */}
-        <div className='md:hidden z-10' onClick={handler}>
+        <div className='md:hidden z-10 cursor-pointer' onClick={handler}>
             {!open ? <FaBars/> : <FaTimes/>}
         </div>
 
         {/* mobile */}
-        <ul className={!open ? 'hidden' : 'absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-bgblack cursor-pointer'}>
-            <li className='my-4 py-2 text-3xl hover:text-primary'>
+        <ul className={!open ? 'hidden' : 'absolute flex flex-col justify-center items-center top-0 left-0 w-full h-screen bg-bgblack'}>
+            <li className='my-4 py-2 text-2xl hover:text-primary cursor-pointer'>
                 <Link onClick={handler} to='hero' smooth={true} duration={500}>Home</Link>
             </li>
-            <li className='my-4 py-1 text-3xl hover:text-primary'>
+            <li className='my-4 py-1 text-2xl md:text-3xl hover:text-primary cursor-pointer'>
                 <Link onClick={handler} to='about' smooth={true} duration={500}>About</Link>
             </li>
-            <li className='my-4 py-1 text-3xl hover:text-primary'>
+            <li className='my-4 py-1 text-2xl md:text-3xl hover:text-primary cursor-pointer'>
                 <Link onClick={handler} to='skills' smooth={true} duration={500}>Skill</Link>
             </li>
-            <li className='my-4 py-1 text-3xl hover:text-primary'>
+            <li className='my-4 py-1 text-2xl md:text-3xl hover:text-primary cursor-pointer'>
                 <Link onClick={handler} to='projects' smooth={true} duration={500}>Project</Link>
             </li>
-            <li className='my-4 py-1 text-3xl hover:text-primary'>
+            <li className='my-4 py-1 text-2xl md:text-3xl hover:text-primary cursor-pointer'>
                 <Link onClick={handler} to='contact' smooth={true} duration={500}>Contact</Link>
+            </li>
+
+            <li className='w-[120px] h-[45px] flex justify-between items-center px-4 mt-4 mb-3 bg-[#0072b1]'>
+                    <a className='flex justify-center items-center w-full text-offwhite cursor-pointer' href="https://linkedin.com/in/dixon-willow">
+                        <FaLinkedin size={30}/>
+                    </a>
+            </li>
+            <li className='w-[120px] h-[45px] flex justify-between items-center px-4 mb-3 bg-[#171515]'>
+                <a className='flex justify-center items-center w-full text-offwhite cursor-pointer' href="https://github.com/Dyxelta">
+                    <FaGithub size={30}/>
+                </a>
+            </li>
+            <li className='w-[120px] h-[45px] flex justify-between items-center px-4 bg-[#0072c6]'>
+                <a className='flex justify-center items-center w-full text-offwhite cursor-pointer' href="mailto:dixon.willow@binus.ac.id">
+                    <HiOutlineMail size={30}/>
+                </a>
             </li>
         </ul>
 
@@ -74,7 +90,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center px-4 -ml-[100px] hover:-ml-[10px] duration-300 bg-[#0072c6]'>
-                    <a className='flex justify-between items-center w-full text-offwhite' href="/">
+                    <a className='flex justify-between items-center w-full text-offwhite' href="mailto:dixon.willow@binus.ac.id">
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>

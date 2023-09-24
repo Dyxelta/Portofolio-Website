@@ -59,18 +59,14 @@ const Navbar = () => {
                 <Link onClick={handler} to='contact' smooth={true} duration={500}>Contact</Link>
             </li>
 
-            <li className='w-[120px] h-[45px] flex justify-between items-center px-4 mt-4 mb-3 bg-[#0072b1]'>
-                    <a className='flex justify-center items-center w-full text-offwhite cursor-pointer' href="https://linkedin.com/in/dixon-willow">
-                        <FaLinkedin size={30}/>
-                    </a>
-            </li>
-            <li className='w-[120px] h-[45px] flex justify-between items-center px-4 mb-3 bg-[#171515]'>
-                <a className='flex justify-center items-center w-full text-offwhite cursor-pointer' href="https://github.com/Dyxelta">
+            <li className='flex items-center justify-center gap-x-8 mt-4'>
+                <a className='flex justify-center items-center w-[50px] h-[50px] bg-[#0072b1] cursor-pointer rounded' href="https://linkedin.com/in/dixon-willow">
+                    <FaLinkedin size={30}/>
+                </a>
+                <a className='flex justify-center items-center w-[50px] h-[50px] bg-[#171515] cursor-pointer rounded' href="https://github.com/Dyxelta">
                     <FaGithub size={30}/>
                 </a>
-            </li>
-            <li className='w-[120px] h-[45px] flex justify-between items-center px-4 bg-[#0072c6]'>
-                <a className='flex justify-center items-center w-full text-offwhite cursor-pointer' href="mailto:dixon.willow@binus.ac.id">
+                <a className='flex justify-center items-center w-[50px] h-[50px] bg-[#0072c6] cursor-pointer rounded' href="mailto:dixon.willow@binus.ac.id">
                     <HiOutlineMail size={30}/>
                 </a>
             </li>

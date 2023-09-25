@@ -1,11 +1,11 @@
 import React from 'react'
 import {FaGithub, FaFigma} from 'react-icons/fa'
-import Eduverse from '../assets/Eduverse.png'
-import MTGraphy from '../assets/MTGraphy.png'
-import FINEance from '../assets/FINEance.png'
-import KpopZtasion from '../assets/KpopZtasion.png'
-import Sunbic from '../assets/Sunbic.png'
-import Medicheck from '../assets/Medicheck.png'
+import Eduverse from '../assets/Eduverse.webp'
+import MTGraphy from '../assets/MTGraphy.webp'
+import FINEance from '../assets/FINEance.webp'
+import KpopZtasion from '../assets/KpopZtasion.webp'
+import Sunbic from '../assets/Sunbic.webp'
+import Medicheck from '../assets/Medicheck.webp'
 
 const Projects = () => {
   return (

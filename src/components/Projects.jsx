@@ -6,18 +6,33 @@ import FINEance from '../assets/FINEance.webp'
 import KpopZtasion from '../assets/KpopZtasion.webp'
 import Sunbic from '../assets/Sunbic.webp'
 import Medicheck from '../assets/Medicheck.webp'
+import { motion } from 'framer-motion'
 
 const Projects = () => {
   return (
     <div name='projects' className='w-full lg:h-[190vh] md:h-[120vh] text-offwhite bg-bggray font-roboto'>
         <div className='flex flex-col justify-center max-w-[1080px] w-full h-full mx-auto p-4'>
-          <div className='pb-8'>
+          <motion.div className='pb-8'
+          initial='hidden'
+          whileInView='visible'
+          transition={{duration:1}}
+          viewport={{once:true}}
+          variants={{ hidden: {opacity:0, y:-50},
+                      visible: {opacity:1, y:0} }}
+          >
             <h1 className='inline text-4xl font-bold border-b-4 border-primary text-offwhite'>Projects</h1>
             <p className='py-6 text-offwhite-dark'>// Some of projects that I've done //</p>
-          </div>
+          </motion.div>
 
           {/* container */}
-          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+          <motion.div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'
+          initial='hidden'
+          whileInView='visible'
+          transition={{duration:1}}
+          viewport={{once:true}}
+          variants={{ hidden: {opacity:0, y:50},
+                      visible: {opacity:1, y:0} }}
+          >
 
             {/* grid item 1 */}
             <div className="flex flex-col shadow-md shadow-primary container rounded-md mx-auto content-div bg-bgblack">
@@ -87,8 +102,6 @@ const Projects = () => {
               </div>
             </div>
 
-
-
             {/* grid item 5 */}
             <div className="flex flex-col shadow-md shadow-primary container rounded-md mx-auto content-div bg-bgblack">
               <div>
@@ -123,7 +136,7 @@ const Projects = () => {
               </div>
             </div>
 
-          </div>
+          </motion.div>
         </div>
     </div>
   )

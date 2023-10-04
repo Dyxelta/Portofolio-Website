@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='fixed flex justify-between items-center w-full h-[80px] px-4 bg-bgblack text-offwhite font-roboto'>
         
         <div>
-            <img className='w-[100px] h-auto' src={Logo} alt="Logo" />
+            <Link to='hero' smooth={true} duration={500}><img className='w-[100px] h-auto cursor-pointer' src={Logo} alt="Logo" /></Link>
         </div>
         
         {/* menu */}

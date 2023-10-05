@@ -11,7 +11,7 @@ const About = () => {
                 whileInView='visible'
                 transition={{duration:1}}
                 viewport={{once:true}}
-                variants={{ hidden: {opacity:0, y:-50},
+                variants={{ hidden: {opacity:0, y:-24},
                             visible: {opacity:1, y:0} }}
                 >
                     <h1 className='inline font-bold text-4xl border-b-4 border-primary'>About</h1>
@@ -25,7 +25,7 @@ const About = () => {
                 whileInView='visible'
                 transition={{duration:1}}
                 viewport={{once:true}}
-                variants={{ hidden: {opacity:0, x:-50},
+                variants={{ hidden: {opacity:0, x:-24},
                             visible: {opacity:1, x:0} }}
                 >
                     <p>Hi, I'm <span className='text-primary'>Dixon Willow</span>, nice to meet you</p>
@@ -35,7 +35,7 @@ const About = () => {
                 whileInView='visible'
                 transition={{duration:1}}
                 viewport={{once:true}}
-                variants={{ hidden: {opacity:0, x:50},
+                variants={{ hidden: {opacity:0, x:24},
                             visible: {opacity:1, x:0} }}
                 >
                     <p className='text-offwhite'>

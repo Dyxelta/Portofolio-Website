@@ -18,7 +18,7 @@ const Skills = () => {
             whileInView='visible'
             transition={{duration:1}}
             viewport={{once:true}}
-            variants={{ hidden: {opacity:0, y:-50},
+            variants={{ hidden: {opacity:0, y:-24},
                         visible: {opacity:1, y:0} }}
             >
                 <h1 className='inline text-4xl font-bold border-b-4 border-primary'>Skills</h1>
@@ -30,7 +30,7 @@ const Skills = () => {
             whileInView='visible'
             transition={{duration:1}}
             viewport={{once:true}}
-            variants={{ hidden: {opacity:0, y:50},
+            variants={{ hidden: {opacity:0, y:24},
                         visible: {opacity:1, y:0} }}
             >
                 <div className='shadow-md shadow-primary hover:scale-110 duration-500'>

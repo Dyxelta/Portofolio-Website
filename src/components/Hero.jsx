@@ -14,7 +14,7 @@ const Hero = () => {
         whileInView='visible'
         transition={{duration:1}}
         viewport={{once:true}}
-        variants={{ hidden: {opacity:0, x:-50},
+        variants={{ hidden: {opacity:0, x:-24},
                     visible: {opacity:1, x:0} }}
         >
             <h3 className='text-2xl sm:text-5xl font-bold text-primary'>// <Typewriter typeSpeed={100} backSpeed={30} cursor={false} words={['Hi ','Halo ','Привет ', '你好 ', 'こんにちは ', '안녕하세요 ','مرحبًا ']} loop/></h3>

@@ -157,7 +157,7 @@ const Projects = () => {
                 ))}
               </div>
               <div className='flex items-center justify-start gap-3'>
-                <button className='md:hidden inline-flex items-center justify-center w-auto border-2 text-bgblack font-semibold border-primary bg-primary px-4 py-2 my-2 hover:bg-primary-dark hover:scale-105 hover:border-primary-dark duration-300 rounded cursor-pointer' onClick={()=>setIndex(-1)}>
+                <button className='inline-flex items-center justify-center w-auto border-2 text-bgblack font-semibold border-primary bg-primary px-4 py-2 my-2 hover:bg-primary-dark hover:scale-105 hover:border-primary-dark duration-300 rounded cursor-pointer' onClick={()=>setIndex(-1)}>
                   Close
                 </button>
                 <a className='inline-flex items-center justify-start gap-2 w-auto border-2 text-offwhite font-semibold border-primary px-4 py-2 my-2 hover:bg-primary hover:scale-105 hover:text-bgblack duration-300 rounded cursor-pointer' href={projectData[index].projectSource}>

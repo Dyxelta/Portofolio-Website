@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-bggray text-offwhite font-roboto'>
+    <div name='about' className='w-full md:h-screen bg-bggray text-offwhite font-roboto py-4'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1080px] w-full grid grid-cols-2 gap-8'>
                 <motion.div className='sm:text-right pb-8 pl-4'

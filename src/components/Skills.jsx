@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-bgblack text-offwhite font-roboto'>
+    <div name='skills' className='w-full md:h-screen py-4 bg-bgblack text-offwhite font-roboto'>
 
         {/* Container */}
         <div className='flex flex-col justify-center max-w-[1080px] w-full h-full mx-auto p-4'>

@@ -11,7 +11,7 @@ const Navbar = () => {
     const handler = () => setOpen(!open)
 
   return (
-    <div className='fixed flex justify-between items-center w-full h-[80px] px-4 bg-bgblack text-offwhite font-roboto'>
+    <div className='fixed flex justify-between items-center w-full h-[80px] px-4 bg-bgblack text-offwhite font-roboto z-10'>
         
         <div>
             <Link to='hero' smooth={true} duration={500}><img className='w-[100px] h-auto cursor-pointer' src={Logo} alt="Logo" /></Link>

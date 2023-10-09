@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <div name='hero' className='w-full h-screen bg-bgblack font-roboto'>
+    <div name='hero' className='w-full md:h-screen bg-bgblack font-roboto py-24 md:py-0'>
 
         {/* Container */}
         <motion.div className='flex flex-col justify-center max-w-[1080px] h-full mx-auto px-8'

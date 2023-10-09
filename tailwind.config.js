@@ -5,16 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    
-    colors: {
-      'bgwhite': '#f5f5f5',
-      'bgblack': '#2c2d32',
-      'bggray': '#323338',
-      'primary': '#f5ac01',
-      'primary-dark': '#c98e00',
-      'offwhite': '#f5f5f5',
-      'offwhite-dark': '#a1a1a1'
+    extend: {
+      colors: {
+        'bgwhite': '#f5f5f5',
+        'bgblack': '#2c2d32',
+        'bggray': '#323338',
+        'primary': '#f5ac01',
+        'primary-dark': '#946801',
+        'offwhite': '#f5f5f5',
+        'offwhite-dark': '#a1a1a1'
+      },
     },
 
     fontFamily: {

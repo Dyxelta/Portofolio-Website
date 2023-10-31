@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import {FaGithub, FaFigma} from 'react-icons/fa'
-import Eduverse from '../assets/Eduverse.webp'
-import MTGraphy from '../assets/MTGraphy.webp'
-import FINEance from '../assets/FINEance.webp'
-import KpopZtation from '../assets/KpopZtasion.webp'
-import Sunbic from '../assets/Sunbic.webp'
-import Medicheck from '../assets/Medicheck.webp'
+import Eduverse from '../assets/projects/Eduverse.webp'
+import MTGraphy from '../assets/projects/MTGraphy.webp'
+import FINEance from '../assets/projects/FINEance.webp'
+import KpopZtation from '../assets/projects/KpopZtasion.webp'
+import Sunbic from '../assets/projects/Sunbic.webp'
+import Medicheck from '../assets/projects/Medicheck.webp'
 import { motion } from 'framer-motion'
 
 const Projects = () => {

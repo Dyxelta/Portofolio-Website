@@ -39,7 +39,7 @@ const About = () => {
                             visible: {opacity:1, x:0} }}
                 >
                     <p className='text-offwhite'>
-                    I'm now a 5th-Semester Computer Science major student at BINUS University with a GPA of 3.94. I've decided to specialize in Software Engineering, and as part of that path, I'm taking Web Programming as an elective course. My interest in software development and coding extends beyond the classroom, as I am a committed learner who actively participates in personal projects, collaborates with peers on coding projects, and attends tech-related workshops and seminars to stay current on industry trends and technologies. I'm excited about my future in the area and determined to making a significant contribution to the ever-changing world of software development.
+                    I'm a final-year Computer Science student at BINUS University, maintaining a GPA of 3.95 with a focus on Software Engineering and Web Programming. Along the way, I've expanded my skills through diving into personal projects, team collaborations, and tech seminars. Beyond software development, I have a deep passion for game development — where I blend creativity and technical skill to build interactive experiences. Whether it's developing apps or crafting games, I'm driven by a constant desire to learn, grow, and contribute to the ever-evolving world of technology.
                     </p>
                 </motion.div>
             </div>
